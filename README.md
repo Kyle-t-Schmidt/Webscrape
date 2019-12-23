@@ -8,7 +8,7 @@ In this project I demonstate:
 * The use of Python for data science
 * Running a program from the command line
 
-## Program Purpose
+## Program purpose
 The program is meant to by run from the command line. The user passes a two letter country code as an argument and the program creates a csv file of the top beers (up to 100) from that country. the csv file contains the beer name, the brewery name, beer type, alcohol by volume (ABV), number of reviews and the average beer rating on a 1-5 scale for each beer. Passing an empty argument rather than a country code will return a csv with the top 250 rated beers in the world. Several example csvs are given in the repository.
 
 ## Using the program
