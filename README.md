@@ -17,19 +17,21 @@ The program is meant to by run from the command line. The user passes a two lett
 3. Run the program in python 3 with the two letter country code in quotes (single or double quotes will both work). You may pass an empty argument to get the top 250 beers in the world.
 
 examples of two letter country codes:
-'us' = United States of America
-'ca' = Canada
-'jp' = Japan
-'gb' = Great Britain
-'it' = Italy
+
+* 'us' = United States of America
+* 'ca' = Canada
+* 'jp' = Japan
+* 'gb' = Great Britain
+* 'it' = Italy
+
 
 example of how to run the program:
 The below is copied from my terminal. The first line navigates to the folder where I have the program stored. the next 4 lines runs the program and returns csv's with information on the top rated beers from the USA, Canada, Japan and the entire world.
 
-**kyle@stream:~$** cd ~/PycharmProjects/web-scrape
-**kyle@stream:~/PycharmProjects/web-scrape$** python3 scrape.py 'us'
-**kyle@stream:~/PycharmProjects/web-scrape$** python3 scrape.py 'ca'
-**kyle@stream:~/PycharmProjects/web-scrape$** python3 scrape.py 'jp'
-**kyle@stream:~/PycharmProjects/web-scrape$** python3 scrape.py ''
+**kyle:~$**  cd ~/PycharmProjects/web-scrape
+**kyle:~/PycharmProjects/web-scrape$**  python3 scrape.py 'us'
+**kyle:~/PycharmProjects/web-scrape$**  python3 scrape.py 'ca'
+**kyle:~/PycharmProjects/web-scrape$**  python3 scrape.py 'jp'
+**kyle:~/PycharmProjects/web-scrape$**  python3 scrape.py ''
 
 
