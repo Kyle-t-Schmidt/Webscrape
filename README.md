@@ -29,9 +29,13 @@ example of how to run the program:
 The below is copied from my terminal. The first line navigates to the folder where I have the program stored. the next 4 lines runs the program and returns csv's with information on the top rated beers from the USA, Canada, Japan and the entire world.
 
 **kyle:~$**  cd ~/PycharmProjects/web-scrape
+
 **kyle:~/PycharmProjects/web-scrape$**  python3 scrape.py 'us'
+
 **kyle:~/PycharmProjects/web-scrape$**  python3 scrape.py 'ca'
+
 **kyle:~/PycharmProjects/web-scrape$**  python3 scrape.py 'jp'
+
 **kyle:~/PycharmProjects/web-scrape$**  python3 scrape.py ''
 
 
